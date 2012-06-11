@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, WalletdocActivity!</string>
+    <string name="app_name">Walletdoc</string>
+    <string name="add_expense">Ausgabe hinzufügen</string>
+    <string name="application_title">Wallet Documentation</string>
+    <string name="message_confirm_delete">Eintrag wirklich löschen?</string>
+    <string name="title_confirm_delete">Löschen</string>
+    <string name="subject">Anlass</string>
+    <string name="amount">Betrag</string>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <string name="type">Buchung</string>
+    <string name="soll">Soll</string>
+    <string-array name="entry_types">
+        <item >Soll</item>
+        <item >Haben</item>
+    </string-array>
+        <string name="pick_entry_type">Was für ein Eintrag ist das?</string>
+        <string name="add_entry">Eintrag hinzufügen</string>
+        <string name="remaining_cash">Restliches Bargeld:</string>
+
+</resources>

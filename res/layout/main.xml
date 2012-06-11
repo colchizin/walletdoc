@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:background="#00AA00"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/application_title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#003300"
+            android:textStyle="bold" />
+
+    </TableRow>
+    
+    <ListView
+        android:id="@+id/listview_expenses"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.49" >
+    </ListView>
+    
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+       >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/tvTotalLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/remaining_cash"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+           	<TextView
+	            android:id="@+id/tvTotal"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:text="Large Text"
+	            android:textAppearance="?android:attr/textAppearanceLarge" />
+            
+        </RelativeLayout>
+
+        
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.03"
+        android:text="@string/add_entry" />
+
+    
+
+</TableLayout>
